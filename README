@@ -1,0 +1,27 @@
+This is Perl module Plack::Middleware::Failsafe.
+
+INSTALLATION
+
+Plack::Middleware::Failsafe installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan Plack::Middleware::Failsafe
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+DOCUMENTATION
+
+Plack::Middleware::Failsafe documentation is available as in POD. So you can do:
+
+    % perldoc Plack::Middleware::Failsafe
+
+to read the documentation online with your favorite pager.
+
+dann
