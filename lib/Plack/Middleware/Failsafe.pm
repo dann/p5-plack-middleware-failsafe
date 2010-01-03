@@ -12,7 +12,7 @@ our $VERSION = '0.01';
 sub call {
     my ( $self, $env ) = @_;
 
-    my $res = eval { $self->app->call($env); };
+    my $res = eval { $self->app->($env); };
 
     if ( my $e = $@ ) {
         $self->log_exception( $env, $e );
